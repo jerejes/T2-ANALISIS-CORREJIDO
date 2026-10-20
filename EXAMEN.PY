@@ -48,7 +48,7 @@ def resolver(f, c, puntos):
     ruta.append([f, c])
     puntos = puntos + valor(f, c)
 
-    # llego a F
+    
     if f == 0 and c == 0:
         if puntos >= 23:
             return True
